@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Cerchio esterno bussola -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#2C3E50" />
+            <size android:width="280dp" android:height="280dp" />
+        </shape>
+    </item>
+
+    <!-- Cerchio interno -->
+    <item android:top="10dp" android:bottom="10dp" android:left="10dp" android:right="10dp">
+        <shape android:shape="oval">
+            <solid android:color="#34495E" />
+        </shape>
+    </item>
+
+    <!-- Indicatori cardinali -->
+    <item android:top="20dp" android:bottom="20dp" android:left="20dp" android:right="20dp">
+        <shape android:shape="oval">
+            <stroke android:width="2dp" android:color="#7F8C8D" />
+            <solid android:color="#1A1A2E" />
+        </shape>
+    </item>
+
+    <!-- Ago nord (rosso) -->
+    <item
+        android:top="40dp"
+        android:bottom="140dp"
+        android:left="135dp"
+        android:right="135dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#E74C3C" />
+            <corners android:topLeftRadius="10dp" android:topRightRadius="10dp"/>
+        </shape>
+    </item>
+
+    <!-- Ago sud (bianco) -->
+    <item
+        android:top="140dp"
+        android:bottom="40dp"
+        android:left="135dp"
+        android:right="135dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#ECF0F1" />
+            <corners android:bottomLeftRadius="10dp" android:bottomRightRadius="10dp"/>
+        </shape>
+    </item>
+
+    <!-- Centro -->
+    <item android:top="125dp" android:bottom="125dp" android:left="125dp" android:right="125dp">
+        <shape android:shape="oval">
+            <solid android:color="#95A5A6" />
+        </shape>
+    </item>
+
+</layer-list>
