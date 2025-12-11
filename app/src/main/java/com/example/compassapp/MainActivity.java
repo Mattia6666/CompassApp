@@ -69,6 +69,7 @@ public class MainActivity extends AppCompatActivity implements SensorEventListen
         btnSong2 = findViewById(R.id.btnSong2);
         btnSong3 = findViewById(R.id.btnSong3);
         btnSong4 = findViewById(R.id.btnSong4);
+        btnCalibrate = findViewById(R.id.btnCalibrate);
 
         // Switch audio
         switchSound.setChecked(isSoundEnabled);
